@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Text-A-Parent :: Dashboard</title>
+  <meta name="" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="../lib/assets/animate.css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="../lib/assets/font-awesome/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" href="../lib/jquery/waves/dist/waves.css" type="text/css" />
+  <link rel="stylesheet" href="css/material-design-icons.css" type="text/css" />
+
+  <link rel="stylesheet" href="../lib/jquery/bootstrap/dist/css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="css/font.css" type="text/css" />
+  <link rel="stylesheet" href="css/app.css" type="text/css" />
+
+</head>
+<body>
+<div class="app">
+  <!-- content -->
+  <div class="row">
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-9">
+        <ul class="nav nav-pills" role="tablist">
+          <li role="presentation" class="active">
+            <a href="#">
+              <span class="badge clarge">
+                <i class="fa fa-circle-o-notch"></i> 42</span><br/>Current Credits 
+            </a>
+          </li>
+          
+          <li role="presentation" class="active">
+            <a href="#">
+              <span class="badge clarge">
+                <i class="fa fa-mobile"></i> 42</span><br/>Recipeients 
+            </a>
+          </li>
+
+          <li role="presentation" class="active">
+            <a href="#">
+              <span class="badge clarge">
+                <i class="fa fa-comment"></i> 42</span><br/>Number of SMS
+            </a>
+          </li>
+      </ul>
+    </div>
+
+    <div class="col-md-3">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="md-whiteframe-z0 bg-white">
+        <ul class="nav nav-lines nav-tabs nav-justified">
+          <li class="active">
+            <a href data-toggle="tab" data-target="#group">Groups <span class="badge bg-info badge-xs">5</span></a></a>
+          </li>
+          <li>
+            <a href data-toggle="tab" data-target="#recipients">Contacts <span class="badge bg-info badge-xs">153</span></a>
+          </li>
+          <li>
+            <a href data-toggle="tab" data-target="#numbers">Numbers</a>
+          </li>
+        </ul>
+        <div class="tab-content p m-b-md clear b-t b-t-2x">
+          <div role="tabpanel" class="tab-pane active" id="group">
+            <div class="checkbox">
+              <label class="ui-checks">
+                <input type="checkbox" checked value="">
+                <i></i>
+                Grade 8 
+              </label>
+            </div>
+            <div class="checkbox">
+              <label class="ui-checks">
+                <input type="checkbox" checked value="">
+                <i></i>
+                Grade 9
+              </label>
+            </div>
+            <div class="checkbox">
+              <label class="ui-checks">
+                <input type="checkbox" checked value="">
+                <i></i>
+                Grade 10
+              </label>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane " id="recipients">
+            <p>No contacts. Add new contacts.</p>
+          </div>
+          <div role="tabpanel" class="tab-pane " id="numbers">
+            <div class="col-sm-10">
+              <input type="text"  class="form-control" placeholder="Enter cell number here">
+            </div>      
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  <div class="col-md-9">
+    <div class="panel panel-default">
+        <div class="panel-heading bg-white">
+          Compose New SMS<br>
+          <small class="text-muted">Type youe SMS below.</small>
+        </div>
+        <div class="panel-body">
+          <form role="form">
+            <div class="form-group">
+                <textarea class="form-control" rows="5"></textarea>
+            </div>
+          </form>
+          <p>Character Used <span class="badge">142</span></p>
+          <p class="m-b btn-groups">
+              <button md-ink-ripple class="btn btn-addon btn-danger"><i class="fa fa-cloud-upload"></i>Clear</button>
+              <button md-ink-ripple class="btn btn-addon btn-success"><i class="fa fa-send"></i>Send</button>
+          </p>
+        </div>
+      </div>
+  </div>
+</div>
+<script src="../lib/jquery/jquery/dist/jquery.js"></script>
+<script src="../lib/jquery/bootstrap/dist/js/bootstrap.js"></script>
+<script src="../lib/jquery/waves/dist/waves.js"></script>
+
+<script src="js/ui-load.js"></script>
+<script src="js/ui-jp.config.js"></script>
+<script src="js/ui-jp.js"></script>
+<script src="js/ui-nav.js"></script>
+<script src="js/ui-toggle.js"></script>
+<script src="js/ui-form.js"></script>
+<script src="js/ui-waves.js"></script>
+<script src="js/ui-client.js"></script>
+
+</body>
+</html>

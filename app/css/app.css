@@ -166,6 +166,10 @@ small,
   font-size: 13px;
 }
 
+.clarge {
+  font-size: 36px;
+}
+
 blockquote {
   border-color: #dddee0;
 }
